@@ -3,7 +3,7 @@ pipeline {
 	stages {
 		stage('Checkout SCM') {
 			steps {
-				git '/home/ssd-lab6-practice'
+				git 'https://github.com/xoXen/ssd-lab6-practice.git'
 			}
 		}
 
